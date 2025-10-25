@@ -8,3 +8,9 @@ releaser:
   version: minchin\scripts\photosorter\__init__.py
   test_command: None
   version_bump: None
+  extra_packages:
+    test:
+      - argcomplete
+      - exifread
+      - watchdog
+    pypi:

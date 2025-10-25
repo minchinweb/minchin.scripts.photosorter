@@ -12,10 +12,10 @@ $ py.test ./minchin/scripts/photosorter/test/test_sorter.py -v
 """
 from datetime import datetime
 import os
+from pathlib import Path
 import time
 import unittest
 from unittest import mock  # type: ignore
-from pathlib import Path
 
 import minchin.scripts.photosorter as sorter
 

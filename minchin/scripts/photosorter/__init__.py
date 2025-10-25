@@ -22,13 +22,13 @@ import datetime
 import hashlib
 import logging
 import os
+from pathlib import Path
 import queue
 import re
 import shutil
 import sys
 import threading
 import time
-from pathlib import Path
 from typing import Dict, List, Mapping, Optional, Set, Tuple  # noqa
 
 import exifread
@@ -38,7 +38,7 @@ import watchdog.observers
 
 # Metadata
 __title__ = "minchin.scripts.photosorter"
-__version__ = "2.1.1.dev.0"
+__version__ = "2.2.0"
 __description__ = "A Python script to keep my photos from Dropbox organized."
 __author__ = "William Minchin"
 __email__ = "w_minchin@hotmail.com"
